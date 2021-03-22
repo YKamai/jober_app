@@ -1,5 +1,7 @@
-PATH
-  remote: ../jober_engine
+GIT
+  remote: https://github.com/YKamai/jober_engine.git
+  revision: 988d19fc6c14683af9ba54a007872d8e601cd2e4
+  branch: main
   specs:
     jober_engine (0.1.0)
       bootstrap (~> 5.0.0.beta2)
@@ -121,6 +123,7 @@ GEM
     nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
+    pg (1.2.3)
     popper_js (2.8.6)
     public_suffix (4.0.6)
     puma (4.3.7)
@@ -226,6 +229,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   jober_engine!
   listen (~> 3.2)
+  pg
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.5)
   sass-rails (>= 6)
@@ -238,9 +242,6 @@ DEPENDENCIES
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
-
-RUBY VERSION
-   ruby 2.6.3p62
 
 BUNDLED WITH
    2.0.2
