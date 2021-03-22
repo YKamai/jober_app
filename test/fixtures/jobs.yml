@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  priority: 1
+  attempts: 1
+  handler: MyText
+  last_error: MyText
+  run_at: 2021-03-18 17:13:32
+  locked_at: 2021-03-18 17:13:32
+  failed_at: 2021-03-18 17:13:32
+  locked_by: MyString
+  queue: MyString
+
+two:
+  priority: 1
+  attempts: 1
+  handler: MyText
+  last_error: MyText
+  run_at: 2021-03-18 17:13:32
+  locked_at: 2021-03-18 17:13:32
+  failed_at: 2021-03-18 17:13:32
+  locked_by: MyString
+  queue: MyString
